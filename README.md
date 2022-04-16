@@ -1,4 +1,5 @@
 # HistoriPedia
 <img src="HistoriPedia.png"> 
-HistoriPedia is a website that allows you to read information about recent and past historical events, It provides intuitive, modern and cozy design. 
-# Big thanks to TITAN for building the backend
+HistoriPedia is a website that allows you to read information about recent and past historical events, It provides intuitive, modern and cozy design.
+<br>
+<h1> Big thanks to TITAN for building the backend </h1>
