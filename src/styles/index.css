@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap");
+body {
+  width: 240px;
+  height: 240px;
+  background-color: #f4f3ef;
+  background-image: radial-gradient(#faebca 10%, transparent 11%), radial-gradient(#faebca 10%, transparent 11%);
+  background-size: 60px 60px;
+  background-position: 0 0, 30px 30px;
+  background-repeat: repeat;
+}
+
+.logot {
+  font-family: "Josefin Sans", sans-serif;
+  height: auto;
+  width: auto;
+  font-size: 80px;
+  color: #394a64;
+  margin-top: 550px;
+  margin-left: 700px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  position: fixed;
+}
+
+.shield {
+  margin-top: 33vh;
+  position: fixed;
+  margin-left: 97.5vh;
+  height: 250px;
+  width: 250px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  position: fixed;
+}
+
+.sword {
+  margin: auto;
+  height: 215px;
+  width: 215px;
+  margin-top: 35.5vh;
+  margin-left: 79.5vh;
+  transform: rotate(5deg);
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  position: fixed;
+}/*# sourceMappingURL=index.css.map */
