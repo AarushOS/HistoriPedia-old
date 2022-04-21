@@ -81,6 +81,7 @@ i.fa {
   height: 0;
   background: yellow;
   border-radius: 5px;
+  animation: searchIndicator 0.5s infinite ease-in-out;
 }
 
 @keyframes searchIndicator{
