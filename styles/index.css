@@ -117,7 +117,7 @@ i.fa {
   }
 
   form:hover {
-    width: 400px;
+    width: 280px;
     cursor: pointer;
     transition: 1.5s;
   }
