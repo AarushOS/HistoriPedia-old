@@ -89,7 +89,7 @@ i.fa {
   100% { width: 50% }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 650px) {
   .container-1 text {
     font-size: 70px;
     color: #394a64;
