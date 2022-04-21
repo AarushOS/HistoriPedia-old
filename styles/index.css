@@ -73,6 +73,17 @@ i.fa {
   transform: translate(-50%, -50%);
 }
 
+.loading::after{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 0;
+  background: yellow;
+  border-radius: 5px;
+  width: 50%;
+}
+
 @media only screen and (max-width: 800px) {
   .container-1 text {
     font-size: 70px;
