@@ -65,9 +65,10 @@ i.fa{
     font-size: 100px;
     color: #394a64;
     font-family: 'Josefin Sans', sans-serif;
-    display: flex;
-    justify-content: center;
-    margin-top: 200px;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 @media only screen and (max-width: 800px){
@@ -75,9 +76,10 @@ i.fa{
         font-size: 80px;
         color: #394a64;
         font-family: 'Josefin Sans', sans-serif;
-        display: flex;
-        justify-content: center;
-        margin-top: 250px;
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
     form{
         position: absolute;
