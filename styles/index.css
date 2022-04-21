@@ -92,7 +92,7 @@ i.fa {
 
 @media only screen and (max-width: 650px) {
   .container-1 text {
-    font-size: 70px;
+    font-size: 60px;
     color: #394a64;
     font-family: "Josefin Sans", sans-serif;
     position: absolute;
