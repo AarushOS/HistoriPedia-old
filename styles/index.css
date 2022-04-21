@@ -81,7 +81,12 @@ i.fa {
   height: 0;
   background: yellow;
   border-radius: 5px;
-  width: 50%;
+}
+
+@keyframes searchIndicator{
+  0% { width: 15% }
+  50% { width: 100% }
+  100% { width: 50% }
 }
 
 @media only screen and (max-width: 800px) {
