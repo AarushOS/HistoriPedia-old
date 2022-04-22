@@ -16,7 +16,7 @@ body {
 
 form {
   position: absolute;
-  width: 400px;
+  width: 450px;
   height: 60px;
   left: 50%;
   top: 35%;
@@ -73,7 +73,7 @@ i.fa {
   transform: translate(-50%, -50%);
 }
 
-.loading::after{
+.loading::after {
   content: "";
   position: absolute;
   top: 0;
@@ -81,15 +81,33 @@ i.fa {
   height: 0;
   background: yellow;
   border-radius: 5px;
-  animation: searchIndicator 0.5s infinite ease-in-out;
+  -webkit-animation: searchIndicator 0.5s infinite ease-in-out;
+          animation: searchIndicator 0.5s infinite ease-in-out;
 }
 
-@keyframes searchIndicator{
-  0% { width: 15% }
-  50% { width: 100% }
-  100% { width: 50% }
+@-webkit-keyframes searchIndicator {
+  0% {
+    width: 15%;
+  }
+  50% {
+    width: 100%;
+  }
+  100% {
+    width: 50%;
+  }
 }
 
+@keyframes searchIndicator {
+  0% {
+    width: 15%;
+  }
+  50% {
+    width: 100%;
+  }
+  100% {
+    width: 50%;
+  }
+}
 @media only screen and (max-width: 650px) {
   .container-1 text {
     font-size: 60px;
@@ -116,6 +134,20 @@ i.fa {
     transition: 1.5s;
   }
 
+  .btn {
+    position: absolute;
+    width: 57px;
+    height: 57px;
+    left: 50%;
+    top: 40.4%;
+    transform: translate(-50%, 50%);
+    border-radius: 50px;
+    padding: 5px;
+    box-sizing: border-box;
+    opacity: 0%;
+  }
+
+  /*
   form:hover {
     width: 280px;
     cursor: pointer;
@@ -125,5 +157,6 @@ i.fa {
   form input:hover {
     display: block;
     transition: 1.5s;
-  }
-}/*# sourceMappingURL=index.css.map */
+  } */
+}
+/*# sourceMappingURL=index.css.map *//*# sourceMappingURL=index.css.map */
