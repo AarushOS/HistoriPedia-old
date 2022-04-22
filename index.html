@@ -15,12 +15,44 @@
             <text>
                 HistoriPedia
             </text>
-            <form action="">
-                <div class="loading" id="searchIndicator">
-                    <input type="search" placeholder="Search an article...">
-                    <i class="fa fa-search"></i>
-                </div>
-            </form>
+                <form id="a" action="">
+                    <script>      
+                        let form2 = document.getElementById("a")
+                        let width = window.innerWidth;
+                        console.log(width);
+                        window.addEventListener("resize", function() {
+                        if (window.matchMedia("(min-width: 650px)").matches) {
+                            console.log("Screen width is at least 650px")
+                            form2.style.width = "450px";
+                            form2.style.transition = "1.5s";
+                        } 
+                        else {
+                            console.log("Screen less than 650px")
+                            form2.style.width = "60px";
+                            form2.style.transition = "1.5s";
+                        }
+                        })
+                    </script>  
+                        <div class="loading" id="searchIndicator">
+                            <input type="search" placeholder="Search an article...">
+                            <i class="fa fa-search"></i>
+                        </div>
+                </form>
+            <script>
+                function on_form_click(){
+                    let width = window.innerWidth;
+                    const form = document.getElementById("a");
+                    const btn = document.getElementById("btn1");
+                    btn.style.left = "auto";
+                    btn.style.right = "84px";
+                    //btn.style.transition = "1.5s";
+                    console.log(width);
+                    form.style.width =  "280px";
+                    form.style.transition = "1.5s";
+                    btn.remove();
+                }
+            </script>
+            <button onclick="on_form_click()" id="btn1" class="btn"></button>
         </div>
     </div>
 </body>
