@@ -26,6 +26,7 @@ form {
   border: 4px solid #fff;
   box-sizing: border-box;
   background: #fff;
+  transition: 0.04s;
 }
 
 input {
@@ -71,6 +72,32 @@ i.fa {
   top: 25%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.autocom-box {
+  display: block;
+  width: 450px;
+  padding-top: 35px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  transform: translate(-50%, 50%);
+  box-sizing: border-box;
+  background-color: #fff;
+  transition: 0.04s;
+}
+
+.autocom-box li {
+  padding: 10px;
+  display: block;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.autocom-box li:hover {
+  background-color: rgb(233, 233, 233);
+  box-sizing: border-box;
+  display: block;
+  border-radius: 3px;
 }
 
 .loading::after {
@@ -121,7 +148,7 @@ i.fa {
 
   form {
     position: absolute;
-    width: 60px;
+    width: 280px;
     height: 60px;
     left: 50%;
     top: 40%;
@@ -131,10 +158,11 @@ i.fa {
     border: 4px solid #fff;
     box-sizing: border-box;
     background: #fff;
-    transition: 1.5s;
+    transition: 0.03s;
   }
 
-  .btn {
+  /*
+  .btn{
     position: absolute;
     width: 57px;
     height: 57px;
@@ -144,10 +172,8 @@ i.fa {
     border-radius: 50px;
     padding: 5px;
     box-sizing: border-box;
-    opacity: 0%;
+    opacity: 50%;
   }
-
-  /*
   form:hover {
     width: 280px;
     cursor: pointer;
