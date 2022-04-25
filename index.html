@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="styles/index.css">
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
     <link rel="icon" href="HistoriPedia.ico" type="image/x-icon" />
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
     <title>HistoriPedia</title>
 </head>
 <body>
@@ -15,42 +16,15 @@
             <text>
                 HistoriPedia
             </text>
-                <form id="a" action="">
-                    <script>      
-                        let form2 = document.getElementById("a")
-                        let width = window.innerWidth;
-                        console.log(width);
-                        window.addEventListener("resize", function() {
-                        if (window.matchMedia("(min-width: 650px)").matches) {
-                            console.log("Screen width is at least 650px")
-                            form2.style.width = "450px";
-                            form2.style.transition = "1.5s";
-                        } 
-                        else {
-                            console.log("Screen less than 650px")
-                            form2.style.width = "60px";
-                            form2.style.transition = "1.5s";
-                        }
-                        })
-                    </script>  
-                        <div class="loading" id="searchIndicator">
-                            <input type="search" placeholder="Search an article...">
-                            <i class="fa fa-search"></i>
-                        </div>
+                <form action="">
+                    <div class="loading" id="searchIndicator">
+                        <input id="input" type="search" placeholder="Search an article...">
+                        <i id="search" class="fa fa-search"></i>
+                    </div>
                 </form>
-            <script>
-                function on_form_click(){
-                    let width = window.innerWidth;
-                    const form = document.getElementById("a");
-                    const btn = document.getElementById("btn1");
-                    console.log(width);
-                    form.style.width =  "280px";
-                    form.style.transition = "1.5s";
-                }
-            </script>
-            <button onclick="on_form_click()" id="btn1" class="btn"></button>
+            <script src="back-end/suggestions.js"></script>
+            <script src="back-end/script.js"></script>
         </div>
-        
     </div>
 </body>
 </html>
