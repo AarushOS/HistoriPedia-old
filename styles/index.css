@@ -80,7 +80,7 @@ i.fa {
 .autocom-box:hover {
   float:left;
   overflow-y: auto;
-  height: 200px;
+  overflow-x: hidden;
   display: absolute;
   /*padding-top: 65px; */
   width: 320px;
