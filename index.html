@@ -5,20 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/index.css">
-    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <link rel="icon" href="HistoriPedia.ico" type="image/x-icon" />
-    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
     <title>HistoriPedia</title>
 </head>
 <body>
     <div class="header-1">
         <div class="container-1">
-            <text>
-                HistoriPedia
-            </text>
+            <p>HistoriPedia</p>
                 <form action="">
-                    <div class="loading" id="searchIndicator">
-                        <input id="input" type="search" placeholder="Search an article...">
+                    <div id="searchInput" class="searchInput">
+                        <input class="input" placeholder = "Search an article..." id="input" type="search">
+                            <div class="autocom-box" id="autocom-box">
+                            </div>
                         <i id="search" class="fa fa-search"></i>
                     </div>
                 </form>
