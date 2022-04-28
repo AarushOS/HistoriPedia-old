@@ -81,6 +81,7 @@ i.fa {
   float:left;
   overflow-y: auto;
   overflow-x: hidden;
+  height: 300px;
   display: absolute;
   /*padding-top: 65px; */
   width: 320px;
@@ -98,6 +99,7 @@ i.fa {
 .autocom-box{
   display: absolute;
   /*padding-top: 65px; */
+  height: 300px;
   width: 320px;
   transform: translate(-2%, -4%);
   border-top-left-radius: 30px;
