@@ -78,9 +78,9 @@ i.fa {
 }
 
 .autocom-box{
-  float:left;
-  overflow-y: auto;
-  overflow-x: hidden;
+  overflow-y: scroll;
+  height: 300px;
+  scroll-behavior: inherit;
   display: absolute;
   /*padding-top: 65px; */
   width: 320px;
