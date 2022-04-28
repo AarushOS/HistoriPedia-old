@@ -77,29 +77,12 @@ i.fa {
   transform: translate(-50%, -50%);
 }
 
-.autocom-box:hover {
+.autocom-box{
   float:left;
   overflow-y: auto;
   overflow-x: hidden;
-  height: 300px;
   display: absolute;
   /*padding-top: 65px; */
-  width: 320px;
-  transform: translate(-2%, -4%);
-  border-top-left-radius: 30px;
-  border-top-right-radius: 30px;
-  border-bottom-left-radius: 7px;
-  border-bottom-right-radius: 7px;
-  display: block;
-  background-color: #fff;
-  opacity: 0;
-  transition-duration: 0.3s;
-}
-
-.autocom-box{
-  display: absolute;
-  /*padding-top: 65px; */
-  height: 300px;
   width: 320px;
   transform: translate(-2%, -4%);
   border-top-left-radius: 30px;
