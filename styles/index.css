@@ -77,6 +77,10 @@ i.fa {
   transform: translate(-50%, -50%);
 }
 
+.autocom-box::-webkit-scrollbar {
+  width: 1em;
+}
+
 .autocom-box{
   display: absolute;
   /*padding-top: 65px; */
@@ -89,6 +93,7 @@ i.fa {
   display: block;
   background-color: #fff;
   opacity: 0;
+  transition-duration: 0.3s;
 }
 
 .searchInput.active .autocom-box{
