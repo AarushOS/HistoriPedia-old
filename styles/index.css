@@ -79,9 +79,19 @@ i.fa {
 
 .autocom-box:hover {
   float:left;
-  width:1000px;
   overflow-y: auto;
-  height: 100px;
+  height: 200px;
+  display: absolute;
+  /*padding-top: 65px; */
+  width: 320px;
+  transform: translate(-2%, -4%);
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+  display: block;
+  background-color: #fff;
+  opacity: 0;
   transition-duration: 0.3s;
 }
 
