@@ -77,8 +77,12 @@ i.fa {
   transform: translate(-50%, -50%);
 }
 
-.autocom-box::-webkit-scrollbar {
-  width: 1em;
+.autocom-box:hover {
+  float:left;
+  width:1000px;
+  overflow-y: auto;
+  height: 100px;
+  transition-duration: 0.3s;
 }
 
 .autocom-box{
