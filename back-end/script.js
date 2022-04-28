@@ -23,7 +23,7 @@ inputBox.onkeyup = (e) => {
 
 function check(list){
     if (list == "<li>undefined</li>"){
-        console.log("bitch");
+        suggBox.innerHTML = "Search for any article";
     }
 }
 
