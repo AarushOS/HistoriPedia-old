@@ -14,6 +14,7 @@ inputBox.onkeyup = (e) => {
         console.log(emptyArray);
         if (emptyArray.length === 0) {
           console.log('NO SUGGESTIONS!');
+          throw new Error("Stop script!");
         }
         emptyArray = emptyArray.map((data) => {
             return data = '<li>' + data + '</li>';
