@@ -6,12 +6,19 @@
 
 body {
     height: 100vh;
-    width: 100vw;
+    width: 100vh;
     background: #f4f3ef;
     background-image: radial-gradient(#faebca 10%, transparent 11%), radial-gradient(#faebca 10%, transparent 11%);
     background-size: 60px 60px;
     background-position: 0 0, 30px 30px;
     background-repeat: repeat;
+}
+.data{
+    display: none
+}
+.g-signin2{
+    position: absolute;
+    
 }
 
 form {
@@ -44,10 +51,6 @@ input {
     border-radius: 10px;
     padding: 0 20px;
     z-index: 9;
-}
-
-.data{
- display: none;   
 }
 
 i.fa {
@@ -256,7 +259,6 @@ i.fa {
     cursor: pointer;
     transition: 1.5s;
   }
-
   form input:hover {
     display: block;
     transition: 1.5s;
