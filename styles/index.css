@@ -46,6 +46,10 @@ input {
     z-index: 9;
 }
 
+.data{
+ display: none;   
+}
+
 i.fa {
     position: absolute;
     z-index: 9;
