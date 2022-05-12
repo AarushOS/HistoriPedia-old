@@ -13,12 +13,16 @@ body {
     background-position: 0 0, 30px 30px;
     background-repeat: repeat;
 }
-.data{
-    display: none
+.data {
+    display: none;
 }
-.g-signin2{
+
+.g-signin2 {
     position: absolute;
-    
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -50px;
 }
 
 form {
